@@ -1,5 +1,3 @@
-org: jrobinson041
-app: notes
 # NOTE: update this with your service name
 service: notes-app-2-api
 
