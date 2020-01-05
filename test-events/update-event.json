@@ -1,0 +1,11 @@
+{
+  "body": "{\"content\":\"new content\",\"attachment\":\"new.jpg\"}",
+  "pathParameters": {
+    "id": "f17d0720-2f30-11ea-b6a4-35458711b36c"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
