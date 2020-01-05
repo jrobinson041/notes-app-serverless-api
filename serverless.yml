@@ -1,3 +1,5 @@
+org: jrobinson041
+app: notes
 # NOTE: update this with your service name
 service: notes-app-2-api
 
@@ -97,7 +99,7 @@ functions:
 
 resources:
   - ${file(resources/api-gateway-errors.yml)}
-  - ${file(resources/dynamodb-table.yml)}
+  - ${file(resources/dynamodb-notes-table.yml)}
   - ${file(resources/s3-bucket.yml)}
   - ${file(resources/cognito-user-pool.yml)}
   - ${file(resources/cognito-identity-pool.yml)}
